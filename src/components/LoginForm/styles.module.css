@@ -1,0 +1,47 @@
+.container .heading {
+  text-transform: uppercase;
+  color: #2b4d6e;
+  font-size: 1.2em;
+  margin-bottom: 1.5em;
+}
+@media screen and (min-width: 500px) {
+  .container .heading {
+    letter-spacing: 0.2em;
+  }
+}
+
+.container .button {
+  background: #2b4d6e;
+}
+.container .button:hover,
+.container .button:focus {
+  background: #4174a5;
+}
+.container .button:active {
+  background: #2b4d6e;
+}
+
+.container .textbox {
+  min-height: 59px;
+}
+
+.container :global(.ant-form-explain) {
+  text-align: right;
+}
+
+.container :global(.ant-checkbox-checked .ant-checkbox-inner) {
+  background: #2b4d6e;
+}
+
+.container a {
+  color: #2b4d6e !important;
+}
+.container a:hover {
+  color: #4174a5 !important;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}
